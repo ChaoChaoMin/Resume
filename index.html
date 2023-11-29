@@ -29,16 +29,16 @@
                 </div>
             </div>
             <div class="arrowDown" onclick="goNaxt()">
-                <i class="fa-solid fa-angles-down fa-beat-fade"></i>
+                <a href="#sec2"><i class="fa-solid fa-angles-down fa-beat-fade"></i></a>
                 <div class="arrowText">Scroll Down</div>
             </div>
         </div>
       </div>
       <div class="swiper-slide">
-            <div class="sec2" style="background-image: url('img/sec2.webp')">
+            <div id="sec2" class="sec2" style="background-image: url('img/sec2.webp')">
                 <div class="content">
                     <div class="photoContainer">
-                        <div class="photo"><img alt="portrait" src="img/min1.webp" alt="min_portrait"></div>
+                        <div class="photo"><img class="portrait" alt="portrait" src="img/min1.webp" alt="min_portrait"></div>
                     </div>
                     <div class="sec2Text">
                         <div class="aboutMe">關於我</div>
@@ -50,13 +50,13 @@
                     </div>
                 </div>
                 <div class="arrowDown2" onclick="goNaxt()">
-                    <i class="fa-solid fa-angles-down fa-beat-fade"></i>
+                    <a href="#sec3"><i class="fa-solid fa-angles-down fa-beat-fade"></i></a>
                     <div class="arrowText">Scroll Down</div>
                 </div>
             </div>
         </div>
         <div class="swiper-slide">
-          <div class="sec3" style="background-image: url('img/sec1.webp')">
+          <div id='sec3' class="sec3" style="background-image: url('img/sec1.webp')">
               <div class="content">
                   <div class="edu">
                       <div class="eduTitle">專業培訓</div>
@@ -79,7 +79,7 @@
                   </div>
               </div>
               <div class="arrowDown2" onclick="goNaxt()">
-                  <i class="fa-solid fa-angles-down fa-beat-fade"></i>
+                  <a href="#sec4"><i class="fa-solid fa-angles-down fa-beat-fade"></i></a>
                   <div class="arrowText">Scroll Down</div>
               </div>
           </div>
@@ -87,30 +87,60 @@
       <div class="swiper-slide">
         <div class="swiper mySwiper2 swiper-h">
             <div class="swiper-wrapper">
-              <div class="swiper-slide firstH">
-                <h1>Portfolio 1</h1>
-                <a href="https://ChaoChaoMin.github.io/Resume/links/una.html"><i class="fa-solid fa-link"></i> I am Pawerful</a>
-                <p class="category">分類：靜態網頁</p>
-                <p>1. 視覺排版設計</p>
-                <p>2. RWD 響應式網頁設計</p>
-                <p>3. 翻牌CSS動畫</p>
-                <br/>
-                <p class="category">使用技術：HTML、CSS</p>
+              <div id="sec4" class="swiper-slide container1">
+                <div class="imageArea1">
+                  <img class="image1" alt="una-web" src="./img/una-all.webp"></img>
+                  <!-- <img class="image2" alt="una-phone" src="./img/una-iPhone-1.webp"></img> -->
+                </div>
+                <div class="firstH">
+                  <h1>Portfolio 1</h1>
+                  <a href="https://ChaoChaoMin.github.io/Resume/links/una.html"><i class="fa-solid fa-link"></i> I am Pawerful</a>
+                  <p class="category">分類：靜態網頁</p>
+                  <p>1. 視覺排版設計</p>
+                  <p>2. RWD 響應式網頁設計</p>
+                  <p>3. 翻牌CSS動畫</p>
+                  <br/>
+                  <p class="category">使用技術：HTML、CSS</p>
+                </div>
               </div>
-              <div class="swiper-slide firstH"> 
+              <div class="swiper-slide  container1"> 
+                <div class="imageArea2">
+                  <img class="image21" alt="php01" src="./img/php-info.webp"></img>
+                  <img class="image21" alt="php02" src="./img/php-chart.webp"></img>
+                </div>
+              <div class="firstH">
                 <h1>Portfolio 2</h1>
-                <a href="https://ChaoChaoMin.github.io/Resume/links/gymLabHome.html"><i class="fa-solid fa-link"></i>專題發表 - GYM LAB 首頁
-                <br><p class="remind">建議將畫質調整為 1080p 觀看</p>
-              </a>
+                <div>健身房線上商城後台管理頁面</div>
                 <p class="category">分類：動態網頁</p>
-                <p>1. 視覺排版設計</p>
+                <p>1. 資料表建立及基礎ＣＲＵＤ</p>
                 <p>2. Google map頁面及樣式設計</p>
                 <br/>
-                <p class="category">使用技術：CSS、React.js</p>
+                <p class="category">使用技術：PHP、MySQL</p>
+            </div>
+          </div>
+              <div class="swiper-slide container1"> 
+                    <div class="imageArea2">
+                      <img class="image21" alt="gymhome01" src="./img/gymhome.webp"></img>
+                      <img class="image21" alt="gymhome02" src="./img/gymhome-map.webp"></img>
+                    </div>
+                  <div class="firstH">
+                    <h1>Portfolio 3</h1>
+                    <a href="https://ChaoChaoMin.github.io/Resume/links/gymLabHome.html"><i class="fa-solid fa-link"></i>專題發表 - GYM LAB 首頁
+                    <br><p class="remind">建議將畫質調整為 1080p 觀看</p>
+                    </a>
+                    <p class="category">分類：動態網頁</p>
+                    <p>1. 視覺排版設計</p>
+                    <p>2. Google map頁面及樣式設計</p>
+                    <br/>
+                    <p class="category">使用技術：CSS、React.js</p>
+                </div>
               </div>
-              <div class="swiper-slide">
-                <div class="swiper-slide firstH"> 
-                  <h1>Portfolio 3</h1>
+              <div class="swiper-slide container1">
+                <div class="imageArea1">
+                  <img class="image21" alt="onlineshop01" src="./img/gymlab-shop.webp"></img>
+                </div>
+                <div class="firstH"> 
+                  <h1>Portfolio 4</h1>
                   <a href="https://ChaoChaoMin.github.io/Resume/links/gymLabOnlineShop.html"><i class="fa-solid fa-link"></i>專題發表 - GYM LAB 線上商城<br>
                     <p class="remind">建議將畫質調整為 1080p 觀看</p>
                   </a>
@@ -140,10 +170,10 @@
       direction: "vertical",
       spaceBetween: 30,
       mousewheel: true,
-      pagination: {
-        el: ".swiper-pagination",
-        clickable: true,
-      },
+      // pagination: {
+      //   el: ".swiper-pagination",
+      //   clickable: true,
+      // },
     });
     var swiper2 = new Swiper(".mySwiper2", {
       direction: "horizontal",
