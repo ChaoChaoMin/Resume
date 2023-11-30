@@ -89,7 +89,7 @@ html,
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 18%;
+    max-width: 18%;
 }
 
 .helloEng{
@@ -186,6 +186,7 @@ html,
     margin-right: 120px;
     text-align: start;
 }
+
 .arrowDown2{
     position: absolute;
     top:85%;
@@ -308,3 +309,143 @@ a:visited{
     font-size: 14px;
     color: lightgray;
 }
+
+
+@media screen and (max-width: 480px) {
+
+    .textContainer{
+        top:28%;
+        margin:0px 16px;
+        width: 100%;
+        left: 20px;
+        /* height: 25%; */
+        display: flex;
+        align-content: center;
+        flex-direction:column;
+        gap: 45px;
+    }
+
+    .Eng{
+        top: 20%;
+        font-size: 40px;
+        max-width: 80%;
+    }
+
+    
+    .chinese{
+        top: 40%;
+        left:15%;
+        font-size: 40px;
+        width: 80%;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+
+    /* -------------------------- sec2 --------------------------- */
+
+    .content{
+        flex-direction: column;
+    }
+    .photo {
+        width: 60%;
+        height: 260px;
+        margin-top: 20px;
+        border-radius: 20px;
+    }
+    .portrait {
+        border-radius: 20px;
+    }
+    
+    .photoContainer{
+        width: 100%;
+    }
+    
+    .sec2Text{
+        width: 75%;
+    }
+    .aboutMe{
+        width: 100%;
+        margin-top: 20px;
+        align-content: center;
+    }
+    
+    .description{
+        width: 100%;
+        margin-top: 15px;
+        font-size: 14px;
+        color: #444f59;
+        text-align: justify;
+
+    }
+
+    .arrowDown2{
+        top:90%;
+    }
+     /* -------------------------- sec3 --------------------------- */
+
+     .edu{
+        width: 100%;
+        padding-left: 16px;
+        align-items:center;
+        text-align: center;
+     }
+
+     .skill{
+        width: 100%;
+        align-items:center;
+     }
+
+     .eduText{
+        text-align: center;
+     }
+
+     .content2{
+        justify-content: center;
+     }
+
+     /* -------------------------- sec4 --------------------------- */
+
+     .container1{
+        flex-direction: column;    
+    }
+    
+    .imageArea1{
+        width: 100%;
+        margin-bottom: 20px;
+        margin-right: 0px;
+    }
+
+    .image1{
+        max-width: 120%;
+        width: 120%;
+        height: 100%;
+    }
+
+    a{
+        font-size: 16px;
+        margin: 15px 0px;
+    }
+
+    .category{
+        margin-bottom: 10px;
+    }
+
+    p{
+        font-size: 16px;
+    }
+    
+    .imageArea2{
+        max-width: 100%;
+        margin-right: 0px;
+        align-items: center;
+        margin-bottom: 15px;
+    }
+
+    .firstH{
+    max-width: 100%;
+    }
+
+}
+
