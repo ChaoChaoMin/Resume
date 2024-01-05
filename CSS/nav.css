@@ -40,7 +40,7 @@ header {
 }
 
 nav {
-    width: 40%;
+    width: 50%;
 }
 
 nav ul li a {
@@ -328,7 +328,7 @@ a {
     width: 35%;
     background-color: rgb(242, 203, 199);
     font-size: 20px;
-    height: 400px;
+    /* height: 400px; */
     overflow: hidden;
     margin: auto;
     object-fit: fill;
@@ -825,6 +825,50 @@ footer div {
 
 /* footer end */
 
+@media screen and (min-width: 501px) and (max-width: 1024px) {
+    #logo{
+        width: 300px;
+    }
+    nav ul li a {
+        width: 80px;
+        font-size: 18px;
+        margin-right: 10px;
+        display: block;
+        text-decoration: none;
+        color: #333;
+        font-family: 'Geologica', sans-serif;
+        text-align: center;
+        line-height: 50px;
+    
+    }
+    .topic {
+        font-size: 60px;
+    }
+    .topic2 {
+        font-size: 60px;
+        margin-left: 15px;
+    }
+
+    .topicbig {
+        width: auto;
+        font-size: 85px;
+        justify-content: flex-end;
+        margin: 0;
+    }
+    .paw {
+        height: 90px;
+        width: 90px;
+    }
+    .photo {
+        width: 45%;}
+
+    .skill-name {
+        font-size: 14px;
+        font-family: Arial, Helvetica, sans-serif;
+        width: 20%;
+    }
+}
+
 /* 手機使用樣式 */
 
 @media screen and (max-width: 500px) {
@@ -881,6 +925,7 @@ footer div {
         height: 54px;
         float: right;
         font-family: 'Darumadrop One', cursive;
+        margin-right: 16px;
     }
 
     /* banner */
@@ -994,9 +1039,9 @@ footer div {
 
     .photo {
         height: 300px;
-        overflow: hidden;
+        /* overflow: hidden; */
         margin-top: 15px;
-        box-shadow: -7px 7px 1px rgb(242, 203, 199);
+        /* box-shadow: -7px 7px 1px rgb(242, 203, 199); */
     }
 
     .description {
@@ -1005,6 +1050,7 @@ footer div {
 
     .photo img {
         max-width: 100%;
+        /* box-shadow: -7px 7px 1px rgb(242, 203, 199); */
     }
 
     .sec1 .container {
